@@ -1,5 +1,4 @@
 import Battle from './Battle';
-// import Character from '../Character';
 import Fighter from '../Fighter';
 
 export default class PVP extends Battle {
