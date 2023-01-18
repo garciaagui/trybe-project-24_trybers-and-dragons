@@ -67,12 +67,12 @@ export default class Character implements Fighter {
 
   attack(enemy: SimpleFighter):void {
     enemy.receiveDamage(this._strength);
-    console.log(`${enemy} received an attack!`);
+    // console.log(`${enemy} received an attack!`);
   }
 
   special?(enemy: SimpleFighter):void {
     enemy.receiveDamage(this._strength * (getRandomInt(1, 3)));
-    console.log(`${enemy} received an special attack!`);
+    // console.log(`${enemy} received an special attack!`);
   }
 
   levelUp():void {
